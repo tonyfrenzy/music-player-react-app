@@ -1,4 +1,4 @@
-import React, {useReducer, createContext} from 'react';
+import React, {useReducer} from 'react';
 
 import {createStore, applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
@@ -25,7 +25,6 @@ const StateProvider = ({children}) => {
     return <Provider value={{state, dispatch}}>{children}</Provider>
 }
 
-export {store, StateProvider};
-
+export { StateProvider };
 
 export default store;
