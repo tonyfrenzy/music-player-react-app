@@ -6,8 +6,8 @@ const Header = () => (
     <> 
         <div>
             <ul>
-                <li><Link to="/">Music App Home</Link></li>
-                <li><Link to="/albums/">Albums</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/albums/">Top Albums</Link></li>
             </ul>
         </div>
     </>
